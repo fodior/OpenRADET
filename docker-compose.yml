@@ -1,0 +1,23 @@
+services:
+
+  postgres:
+
+    image: postgres:17
+
+    container_name: openradet_db
+
+    restart: always
+
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: openradet
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

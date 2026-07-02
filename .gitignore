@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+
+venv/
+.venv/
+
+# Logs
+*.log
+
+# Mac
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Data files
+data/raw/*.xlsx
+data/raw/*.csv
+
+# PostgreSQL
+pgdata/
+
+# dbt
+target/
+dbt_packages/
+
+# Airflow
+airflow.db
+
+# Superset
+superset.db
