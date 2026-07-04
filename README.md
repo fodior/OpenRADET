@@ -1,11 +1,10 @@
-# OpenRADET
+# OpenSource
 
 Open-source Medallion Data Warehouse for HIV Program Analytics.
 
 ## Overview
 
-OpenRADET is designed to transform RADET datasets into analytics-ready structures using a Medallion Architecture.
-
+Health Analytics Engineering Framework inspired by HIV reporting workflows, built with PostgreSQL, Python, Medallion Architecture and Apache Superset.
 Layers:
 
 - Bronze → Raw data ingestion
